@@ -6,7 +6,7 @@ const ProjectCardData = [
         imgsrc: pro1,
         title: "Alumni Connect",
         text: "Hey Evans, Looks like your free DashPass Student membership is paying off! Be sure to check out all the ways you can save on delivery with DashPass, thanks to Chegg.",
-        view: "https://github.com/EvansAsuboahStetson/Alumni-Connector-Evans",
+        view: "https://www.youtube.com/watch?v=oJvWCRGjdXA",
         extraText: "I led a team of four students in developing a MERN stack-based web application that facilitates connections between students and alumni. The project included a chat feature powered by Twilio API. Additionally, I gained valuable experience in product development and attended industry panels with renowned professionals",
         second_button_title: "Source"
     },
