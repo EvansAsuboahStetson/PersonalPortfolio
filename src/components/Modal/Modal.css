@@ -40,4 +40,5 @@ body.active-modal {
 }
 .modal-content p, h2{
     color: black;
+    line-height: 25px;
 }
