@@ -1,6 +1,7 @@
 import pro1 from "../../assets/alumni.gif"
 import facade from "../../assets/facade.png"
 import Terralearn from "../../assets/terraLearn.png"
+import predict3 from "../../assets/predictPlot3.png"
 const ProjectCardData = [
     {
         imgsrc: pro1,
@@ -24,5 +25,12 @@ const ProjectCardData = [
         view: "https://youtu.be/ozIahxawHOI",
         second_button_title: "Source"
     },
+    {
+        imgsrc: predict3,
+        title: "Convolutional Neural Network Meeting Time Prediction",
+        text: "For my undergraduate senior research project, I conducted an in-depth analysis of using Convolutional Neural Networks (CNNs) to predict optimal meeting times within an organization. This innovative approach leverages the pattern recognition capabilities of CNNs to analyze and forecast scheduling preferences, aiming to streamline the process of coordinating meetings effectively.",
+        view: "https://github.com/EvansAsuboahStetson/CNNMeetingScheduler",
+        second_button_title: "Source"
+    }
 ];
 export default ProjectCardData;
