@@ -3,7 +3,6 @@ import "./ProjectCard.css";
 import React from "react";
 import Modal from "../Modal/Modal";
 
-
 const ProjectCard = (props) => {
     return (
         <div className="project-card">
@@ -16,10 +15,8 @@ const ProjectCard = (props) => {
                 <div className="pro-btn">
                     <Modal data={props} />
                     {props.second_button_title && <NavLink to={props.view} className="btn">{props.second_button_title}</NavLink>}
-
                 </div>
             </div>
-
         </div>
     );
 };

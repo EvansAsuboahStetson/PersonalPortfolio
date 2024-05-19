@@ -2,7 +2,16 @@ import pro1 from "../../assets/alumni.gif"
 import facade from "../../assets/facade.png"
 import Terralearn from "../../assets/terraLearn.png"
 import predict3 from "../../assets/predictPlot3.png"
+import tictactoe from "../../assets/tictactoe.png"
 const ProjectCardData = [
+    {
+        imgsrc: tictactoe,
+        title: "Multi-player Tic Tac Toe",
+        text: "Inspired by the immersive experience of FIFA 24 online gameplay, I set out to create a multiplayer Tic-Tac-Toe game that offers real-time interactions and competitive fun. This project combines my passion for game development with my skills in web technologies, bringing an engaging and dynamic gaming experience to life",
+        view: "https://github.com/EvansAsuboahStetson/Multi-player-tic-tac-toe",
+        extraText:"Players can easily sign up and log in to start their Tic-Tac-Toe journey. The lobby system allows users to see who’s online and ready to play. Inviting a friend to a match is straightforward, and once the game starts, players experience real-time updates, making each move as if they were playing face-to-face.",
+        second_button_title: "Source"
+    },
     {
         imgsrc: pro1,
         title: "Alumni Connect",
@@ -31,6 +40,7 @@ const ProjectCardData = [
         text: "For my undergraduate senior research project, I conducted an in-depth analysis of using Convolutional Neural Networks (CNNs) to predict optimal meeting times within an organization. This innovative approach leverages the pattern recognition capabilities of CNNs to analyze and forecast scheduling preferences, aiming to streamline the process of coordinating meetings effectively.",
         view: "https://github.com/EvansAsuboahStetson/CNNMeetingScheduler",
         second_button_title: "Source"
-    }
+    },
+
 ];
 export default ProjectCardData;

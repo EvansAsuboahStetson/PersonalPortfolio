@@ -45,7 +45,7 @@ const Footer = () => {
           <h4> About Me</h4>
           <p>
             {" "}
-            Evans is a senior at Stetson University, FL majoring in computer
+            Evans is a new grad from Stetson University, FL who majored  in computer
             science. He sees himself as someone who is eager to learn, take
             risks, make mistakes and live life to the fullest. Evans considers
             himself as a boy with an African heart and hopes to contribute his

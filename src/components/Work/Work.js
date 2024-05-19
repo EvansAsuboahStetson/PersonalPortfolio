@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const Work = ({WorkData, title}) => {
+  console.log(WorkData);
   return (
     <div className="work-container">
       <h1 className="project-heading">{title}</h1>
@@ -14,8 +15,9 @@ const Work = ({WorkData, title}) => {
                 title={val.title}
                 text={val.text}
                 view={val.view}
-                extraText={val.extraText}
+                extraText={val?.extraText}
                 second_button_title={val.second_button_title}
+                videoUrl={val.videoUrl}
                 />
             );
         })}

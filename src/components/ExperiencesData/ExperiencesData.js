@@ -3,13 +3,15 @@ import mongoDb from "../../assets/MongoDb.jpeg";
 import amazon from "../../assets/amazon.jpg";
 import asu from "../../assets/asu.png";
 import Presentation from "../../assets/Presentation.jpg";
+import speech from "../../assets/speech.png";
+
 const ExperiencesData = [
   {
     imgsrc: amazon,
     title: "Amazon SWE Internship",
     text: "Worked on the Amazon Alexa Music Multimodal Experience team as a Software Engineer Intern.",
     extraText:
-      "The summer of 2023, I landed a full-time internship with Amazon as a software engineer intern on the Alexa  Music Multimodal Experience team. Over the three months, I had the incredible opportunity to contribute to innvoative projects that hopefully will be shipped sometime soon \n. I immensed myself in a dynamic and fast paced environment, gaining hands on experience with cutting edge technologies and industry best practices. The internship provided me with invaluable insights into scalable software development agile methologies and the significance of teamwork in delivering succeful projects",
+      "The summers of 2023, I landed a full-time internship with Amazon as a software engineer intern on the Alexa  Music Multimodal Experience team. Over the three months, I had the incredible opportunity to contribute to innvoative projects that hopefully will be shipped sometime soon \n. I immensed myself in a dynamic and fast paced environment, gaining hands on experience with cutting edge technologies and industry best practices. The internship provided me with invaluable insights into scalable software development agile methologies and the significance of teamwork in delivering succeful projects",
   },
   {
     imgsrc: pro1,
@@ -39,5 +41,11 @@ const ExperiencesData = [
     extraText:
       "I was completely surprised to learn that I had been selected for the Maris prize award. As someone who regularly undertakes projects, I always strive to find ways to apply my classroom knowledge to the needs of my community. In my view, many of the challenges that face humanity can be addressed, at least in part, by using technology. Therefore, when my supervisor informed me that donations were  needed to secure new spaces for local organizations' activities, I immediately began exploring technological solutions. I asked myself, How can I contribute to this?",
   },
+  {
+    imgsrc: speech,
+    title: "Bonner Speech",
+    text: "In this heartfelt speech, I reflect on my transformative journey from Kumasi, Ghana, to pursuing computer science in the United States. Initially aiming for medical school, I found a new path in computer science, leading to significant personal growth and community involvement.",
+    videoUrl:"9Z4vA4zI0xY" // YouTube video ID
+  }
 ];
 export default ExperiencesData;
