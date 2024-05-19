@@ -28,8 +28,6 @@ export default function Modal({ data }) {
                         {data.videoUrl ? (
                             <div className="video-wrapper">
                                 <iframe
-                                    width="560"
-                                    height="315"
                                     src={`https://www.youtube.com/embed/${data.videoUrl}`}
                                     title="YouTube video player"
                                     frameBorder="0"
