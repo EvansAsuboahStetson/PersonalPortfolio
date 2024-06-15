@@ -14,7 +14,11 @@ const ProjectCard = (props) => {
                 <p>{props.text}</p>
                 <div className="pro-btn">
                     <Modal data={props} />
-                    {props.second_button_title && <NavLink to={props.view} className="btn">{props.second_button_title}</NavLink>}
+                    {props.second_button_title && 
+                    <NavLink to={props.view} className="btn btns">
+                        {props.second_button_title}
+                        
+                    </NavLink>}
                 </div>
             </div>
         </div>
