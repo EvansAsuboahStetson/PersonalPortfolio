@@ -5,10 +5,12 @@ import {
   FaLinkedinIn,
   FaMailBulk,
   FaPhone,
+  FaFilePdf,
 } from "react-icons/fa";
 
 import React from "react";
 import { NavLink } from "react-router-dom";
+import EvansAsuboahGrad_ from "../../assets/EvansAsuboahGrad_.pdf"
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
               <p>421 N Woodland Blvd</p>
-              <p>Deland , Florida </p>
+              <p>Deland , Florida</p>
             </div>
           </div>
           <div className="phone">
@@ -40,16 +42,29 @@ const Footer = () => {
               evansasuboahcapp@gmail.com
             </h4>
           </div>
+          <div className="resume">
+           
+            <a
+              href= {EvansAsuboahGrad_}
+              download="Evans_Asuboah_Resume.pdf"
+              className="download-link"
+            >
+              <FaFilePdf
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              Click here to download my resume
+            </a>
+          </div>
         </div>
         <div className="footer__container__right">
           <h4> About Me</h4>
           <p>
-            {" "}
-            Evans is a new grad from Stetson University, FL who majored  in computer
-            science. He sees himself as someone who is eager to learn, take
-            risks, make mistakes and live life to the fullest. Evans considers
-            himself as a boy with an African heart and hopes to contribute his
-            quota to the development of Africa.
+            Evans is a new grad from Stetson University, FL who majored in
+            computer science. He sees himself as someone who is eager to learn,
+            take risks, make mistakes and live life to the fullest. Evans
+            considers himself as a boy with an African heart and hopes to
+            contribute his quota to the development of Africa.
           </p>
           <div className="social">
             <NavLink to="https://www.linkedin.com/in/evansasuboah1">
@@ -66,6 +81,7 @@ const Footer = () => {
               />
             </NavLink>
           </div>
+
         </div>
       </div>
     </div>

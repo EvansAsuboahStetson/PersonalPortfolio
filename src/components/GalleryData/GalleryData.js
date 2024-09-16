@@ -11,11 +11,16 @@ import Feedback from "../../assets/Feedback.jpg";
 import BHCF_Award from "../../assets/BHCF_Award.jpg";
 import asu from "../../assets/asu.jpeg"
 import asuPresido from "../../assets/asuPresido.jpeg"
+import amazon_pic from "../../assets/amazon_pic.jpg"
 
 const GalleryData = [
     {
+        src: amazon_pic,
+        description: "Amazon SDE Internship Summer 2024",
+    },
+    {
         src: amazon,
-        description: "Amazon SWE Internship",
+        description: "Amazon SDE Internship Summer 2023",
     },
     {
         src: amazonFweek,   

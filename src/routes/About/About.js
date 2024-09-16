@@ -9,8 +9,8 @@ const Experiences = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImage2 heading = "EXPERIENCES AND ACHIEVEMENTS" text="I am a final year student at Stetson University"/>
-      <Work  WorkData = {ExperiencesData} title=" Experiences and Achievements"/>
+      <HeroImage2 heading = "EXPERIENCES AND ACHIEVEMENTS" />
+      <Work  WorkData = {ExperiencesData} />
       <Footer/>
     </div>
   )

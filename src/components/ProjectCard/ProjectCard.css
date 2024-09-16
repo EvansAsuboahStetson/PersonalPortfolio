@@ -1,13 +1,21 @@
 .project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
+    color: #fff; /* Ensure project heading is visible */
+}
+
+.year-heading {
+    color: #fff; /* Make the year heading white */
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center;
+    padding: 2rem 0; /* Add space above and below the year */
 }
 
 .project-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust for fewer than 3 items */
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
@@ -54,6 +62,7 @@
     justify-content: space-between;
     padding: 0.5rem 0;
 }
+
 .btns {
     background-color: #28a745;
 }
