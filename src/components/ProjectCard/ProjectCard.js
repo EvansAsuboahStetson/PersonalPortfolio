@@ -4,6 +4,7 @@ import React from "react";
 import Modal from "../Modal/Modal";
 
 const ProjectCard = (props) => {
+    console.log("props", props)
     return (
         <div className="project-card">
             <img src={props.imgsrc} alt="image" />
